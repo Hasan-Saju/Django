@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+{% extends "first_app/base.html" %}
+{% load my_filters %}
+
+{% block body_block %}
+
+<!-- buil in filter -->
+<!-- upper, lower, add,cut -->
+<h3> {{ sample_text|custom_filter:"new edition" }} </h3>
+
+
+
+{% endblock %}
+
+
+
+<!-- <!DOCTYPE html>
+{% load static %} -->
+<!-- eita mile na oder sathe comment -->
+<!-- <html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% static "/css/mystyle.css" %}">
+    <title>Home Page of Musician List</title>
+  </head>
+  <body>
+    <h1>This is is the Home page of First app <br>
+    I am being called from views.py  <br>
+   </h1> -->
+     <!-- {.{plain txt}.}     {.% logic/code %.}  comment -->
+    <!-- <br>
+    <img src="{% static "images/image.png" %}" >
+    <hr>
+    <h2> {{text_1}} </h2> -->
+    <!-- <a href="/form/">Add New </a> comment-->
+    <!-- <a href="{% url 'first_app:form' %}">Add New</a>
+
+    <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Instrument </th>
+      </tr>
+
+      {%for row in musician%}
+
+      <tr>
+        <td> {{row.first_name}} </td>
+        <td> {{row.last_name}} </td>
+        <td> {{row.instrument}} </td>
+      </tr>
+
+      {% endfor %}
+
+    </table>
+
+  </body>
+</html> -->
+<!-- frest start -->
