@@ -1,0 +1,84 @@
+#Documentation Reading
+#model,form, form field, widget, validators
+
+
+
+
+
+
+
+#create new project
+django-admin startproject project_name
+
+#create new app 
+python manage.py startapp app_name
+
+#for running server
+python manage.py runserver
+
+#for migrate database  , have to run this every time we change the database
+python manage.py migrate
+python manage.py makemigrations app_name(model tar app name, model app er sathe connected hoy)
+python manage.py migrate 
+
+#open shell 
+python manage.py shell 
+
+#import a model 
+from first_app.models import Musician
+print(Musician.objects.all())
+#creating a object 
+obj=Musician(first_name="Eric",last_name="Clapton",instrument="Guitar")
+obj.save()
+obj=Musician(first_name="Hilary",last_name="Hahn",instrument="Violin")
+obj.save()
+
+
+#admin panel helps to manipulate data 
+#admin use korar jonno super user lage 
+#creating super user 
+python manage.py createsuperuser
+#pass 123  user hasan 
+#pass 123 user hasanStudent
+#pass 123 user HasanPractice
+123 hasanCrud
+
+
+
+virtual env means alada ekta workplace
+amar iccha moto version install kore kaj korte parbo
+main pc r file / version interfare korbe na
+
+
+pip list  
+#checking py packages
+
+
+#scripts for virtual environment
+
+python -m venv myvirtualenv(name)
+
+#for activate virual env
+1.go to scripts folder
+activate
+
+pip install django==2.2.4
+
+#necessary shob install
+pip install -r requirements.txt
+
+
+#for deactivating
+deactivate
+
+#might be necessary
+https://stackoverflow.com/questions/4037939/powershell-says-execution-of-scripts-is-disabled-on-this-system
+
+
+
+
+
+
+
+
+

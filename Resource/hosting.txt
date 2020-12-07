@@ -1,0 +1,6 @@
+/home/username/your_repo/project_name
+1./home/HasanSaju/Django-CRUD/crud
+2.crud
+3.crud-env
+HasanSaju.pythonanywhere.com
+/home/HasanSaju/.virtualenvs/crud-env

@@ -1,0 +1,9 @@
+start a new project with script
+create a new app with script 
+add installed app in project settings 
+
+organize urls and views
+
+create database
+create view
+create form
