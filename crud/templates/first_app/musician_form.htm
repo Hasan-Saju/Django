@@ -1,0 +1,15 @@
+{% extends 'first_app/base.htm' %}
+
+{% block body_block %}
+<h1>Musician Form</h1>
+
+<form method="POST">
+
+    {{ musician_form.as_p }}
+    {% csrf_token %}
+    <!-- input button for form -->
+
+    <input type="submit" name="submit" value="Add" class="btn btn-primary btn-sm">
+
+</form>
+{% endblock %}

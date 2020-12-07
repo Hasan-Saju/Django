@@ -1,0 +1,11 @@
+{% extends 'first_app/base.htm' %}
+{% block body_block %}
+<h2>Delete Page</h2>
+<br>
+<br>
+{% if delete_success %}
+<div class="alert alert-danger">
+    {{ delete_success }}
+</div>
+{% endif %}
+{% endblock %}
