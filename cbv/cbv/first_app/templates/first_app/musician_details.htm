@@ -1,0 +1,17 @@
+{% extends 'first_app/base.htm' %}
+{% block body_block %}
+<h3>Musician Details</h3>
+<p>{{musician.first_name}} {{musician.last_name}}</p>
+<p>{{musician.instrument}}</p>
+<!-- easily can show the info related foreign key of the id -->
+<h3>Album</h3>
+<!-- album list hocche model a declare kora related name -->
+<ul>
+    {% for album in musician.album_list.all %}
+    <li>{{album.name}}</li>
+    {% endfor %}
+</ul>
+
+<a href="{% url 'first_app:musician_update' pk=musician.pk %}" class="btn btn-warning btn-sm">Update</a>
+<a href="{% url 'first_app:musician_delete' pk=musician.pk %}" class="btn btn-danger btn-sm">Delete</a>
+{% endblock %}
