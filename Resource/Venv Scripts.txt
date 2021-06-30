@@ -1,0 +1,6 @@
+create:
+after going to directory
+virtualenv tspnet_env
+
+activate:
+.\tspnet_env\Scripts\activate
