@@ -43,6 +43,10 @@ python manage.py createsuperuser
 #pass 123 user HasanPractice
 123 hasanCrud
 
+username: Ecfor
+123
+hasansaju11@gmail.com
+
 
 
 virtual env means alada ekta workplace
